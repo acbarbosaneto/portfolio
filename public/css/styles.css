@@ -231,14 +231,14 @@ h5{
     border-radius: 0.5rem;
     padding:1rem auto;
     width:20rem;
-    color:#0bbd96;
+    color:#F7F7FF;
     background-color: #0A0903;
     font-size: 1rem;
 }
 
 .side-card:hover{
-    color:#F7F7FF;
-    background-color: #0bbd96;
+    color:#0A0903;
+    background-color: #F7F7FF;
 }
 
 i{
