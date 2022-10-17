@@ -22,6 +22,7 @@ main{
     flex-direction:column;
     align-items: center;
     width:100%;
+    overflow-x: hidden;
 }
 
 header{
@@ -32,10 +33,11 @@ header{
     justify-content: space-between;
     padding:0.5rem 5rem;
     align-items: center;
-    background-color: #0A0903;
-    color:#F7F7FF;
+    background-color:#F0EFF4;
+    color:#0A0903;
     position:fixed;
     top:0;
+    border-bottom:3px solid #f6f5fa;
    /* rgba(255, 255, 255, 0.8)*/
     
 }
@@ -51,7 +53,7 @@ header{
 .menu div{
     width: 32px;
     height: 2px;
-    background: #fff;
+    background: #0A0903;
     margin: 8px;
 }
 
@@ -76,6 +78,7 @@ header nav ul li:hover{
 
 
 header nav ul li a{
+    color:#0A0903;
     text-decoration: none;
     font-size:1rem;
 }
@@ -93,9 +96,7 @@ h1{
 }
 
 h2{
-    font-family: 'Bebas Neue', cursive;
     font-size:3.5rem;
-    border-bottom: 3px solid;
     text-align: center;
     
 }
@@ -112,17 +113,32 @@ h4{
     text-align: center;
 
 }
+
 h5{
     font-family: 'Aboreto', cursive;
     font-size:1.5rem;
     padding-right:3rem;
-    border-right: 3px solid #F0EFF4;
+    border-right: 3px solid #0A0903;
 }
-.oi-home{
-    font-size:5rem;
+
+.title-home{
+    font-size:3rem;
     font-weight: 400;
-    color:#0bbd96;
+    background-image: linear-gradient(to bottom, rgb(38, 15, 215), rgb(117, 189, 248));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
+
+.title2-home{
+    font-weight: 900;
+    font-size:3.2rem;
+    text-align: center;
+    
+}
+
+
 .title{
     margin-bottom:2rem;
     font-weight: 500;
@@ -196,7 +212,7 @@ h5{
     background-color: #f6f5fa;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding:4rem;
-    border-radius: 1rem;
+    border-radius: 5px;
     margin:1rem;
 }
 .box {
@@ -232,13 +248,12 @@ h5{
     padding:1rem auto;
     width:20rem;
     color:#F7F7FF;
-    background-color: #0A0903;
+    background-color: rgb(38, 15, 215);
     font-size: 1rem;
 }
 
 .side-card:hover{
-    color:#0A0903;
-    background-color: #F7F7FF;
+    background-color: rgb(117, 189, 248)
 }
 
 i{
