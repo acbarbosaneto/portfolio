@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
 
@@ -20,86 +22,151 @@
 
 <body>
     <header>
-        <h5>Portfólio</h5>
-        
-        <nav>
-            <ul class="menuItems">
-                <li><a href="#home"><i class="uil uil-home"></i>Início</a></li>
-                <li><a href="#about"><i class="uil uil-user"></i>Sobre Mim</a></li>
-                <li><a href="#projects"><i class="uil uil-apps"></i>Projetos</a></li>
-            </ul>
-        </nav>
-
         <div class="menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+            <h3>Portfólio</h3>
+            <ul>
+                <li><a href="#about"></i>Sobre Mim</a></li>
+                <li><a href="#projects"></i>Projetos</a></li>
+            </ul>
         </div>
     </header>
 
     <main>
-        <section id="home">
-            <div class="container-column">
-                <div class="container-column white-bg">
-                    <h1 class="title-home">Antonio Barbosa</h1>
-                    <h2 class="title2-home">Desenvolvedor Web</h2>
+        <section id="home" class="section-container">
+                <div class="content-container">
+                    <h1 class="home-title">Antonio Barbosa</h1>
+                    <h2 class="home-subtitle">Desenvolvedor Web</h2>
                 </div>
-            </div>
-            <div class="container-column">
-                <a href="https://api.whatsapp.com/send?phone=5581979094562&text=Mande Uma Mensagem!" target="_blank"><div class="side-card">
-                    <i class="uil uil-whatsapp"></i>
-                    <p>Whatsapp</p> 
-                </div></a>
-                <a href="https://www.linkedin.com/in/antonio-barbosa-435953241/" target="_blank"><div class="side-card">
-                    <i class="uil uil-linkedin"></i>
-                    <p>Linkedin</p> 
-                </div></a>
-                <a href="https://github.com/acbarbosaneto" target="_blank"><div class="side-card">
-                    <i class="uil uil-github"></i>
-                    Github
-                </div></a>
-            </div>
+                <!-- <img src="./images/react.svg" alt=""> -->
+                <i class="uil uil-arrow-circle-down"></i>
+
         </section>
-
-        <div class="section-division"></div>
-
-        <section id="about">
+        
+        <section id="about" class="section-container">
             <h4 class="title">Sobre Mim</h4>
-            <div class="container-row white-bg">
-                <div class="box">- Formado em Administração pela FCAP - Faculdade de Ciências da Administração de Pernambuco.<br><br>- Tenho muito interesse por Tecnologia e Design. Me apaixonei pelo Desenvolvimento Web à primeira vista.<br><br>- Possuo experiência com HTML, CSS, Javascript, JQuery, Node.js, Express e Git. </div>
             
+            <div class="content-container-row">
+                <div class="text-box">Formado em Administração pela FCAP - Faculdade de Ciências da Administração de
+                    Pernambuco. Tenho muito interesse por Tecnologia e Design. Me apaixonei pelo Desenvolvimento
+                    Web à primeira vista. Possuo experiência com HTML, CSS, Javascript, JQuery, Node.js, Express e
+                    Git. 
+                </div>
                 <div class="image-box">
-                    <img src="./images/html.png" alt="">
-                    <img src="./images/css-3.png" alt="">
-                    <img src="./images/js.png" alt="">
-                    <img src="./images/nodejs.png" alt="">
+                    <div class="content-container">
+                        <img src="./images/html.png" alt="">
+                        <div class="tag">HTML</div>
+                    </div>  
+                    <div class="content-container">
+                        <img src="./images/css-3.png" alt="">
+                        <div class="tag">CSS</div>
+                    </div>  
+                    <div class="content-container">
+                        <img src="./images/js.png" alt="">
+                        <div class="tag">JavaScript</div>
+                    </div>  
+                    <div class="content-container">
+                        <img src="./images/react.svg" alt="">
+                        <div class="tag">React</div>
+                    </div>  
+                    <div class="content-container">
+                        <img src="./images/nodejs.png" alt="">
+                        <div class="tag">Node.js</div>
+                    </div>       
                 </div>
             </div>
+            
+            
+        
+                
         </section>
+<!-- ***************PROJECTS*************** -->
+        <section id="projects" class="section-container gradient-bg">
+            <h4 class="title white">Projetos</h4>
 
-        <div class="section-division"></div>
+            <!-- ***************TODOLIST*************** -->
+            <div class="content-container-row project-card">
+                <div class="content-container">
+                    <h3 class="project-card-title dark">React To Do List</h3>
+                    <a href="/" target="_blank"> <img class="project-img" src="./images/todolist.png" alt=""></a>
+                    <i class="uil uil-github icon"></i>
+                </div>
+                <div class="content-container">
+                    <div class="project-text">
+                        Neste projeto eu utilizei os hooks UseState e UseEffect do React, em conjunto com a propriedade localStorage do JavaScript, para elaborar um bloco de notas que persiste os dados do usuário no próprio navegador.
+                    </div>
+                    <div class="tags-container">
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">JavaScript</div>
+                        <div class="tag">React</div>
+                    </div>
+                </div>
+            </div>
 
-        <section id="projects">
-            <h4 class="title">Projetos</h4>
-            <div class="container-row">
-                <div class="container-column">
-                    <div class="project-card">
-                        <h3 class="project-card-title">Em Breve...</h3>
+            <!-- ***************APPDOTEMPO*************** -->
+            <div class="content-container-row project-card">
+                <div class="content-container">
+                    <h3 class="project-card-title dark">App do Tempo</h3>
+                    <a href="https://appdotempo.herokuapp.com/" target="_blank"> <img class="project-img" src="./images/weatherapp.png" alt=""> </a>
+                    <i class="uil uil-github icon"></i>
+                </div>
+                <div class="content-container">
+                    <div class="project-text">
+                        Aplicativo integrado com a API Open Weather que permite o usuário buscar dados do clima de qualquer lugar do mundo.
+                    </div>
+                    <div class="tags-container">
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">JavaScript</div>
+                        <div class="tag">Node.js</div>
+                        <div class="tag">Express</div>
+                        <div class="tag">API</div>
+                        <div class="tag">Deploy</div>
                     </div>
                 </div>
-                <div class="container-column">
-                    <div class="project-card">
-                        <h3 class="project-card-title">Em Breve...</h3>
+            </div>
+
+            <!-- ***************CRUD*************** -->
+            <div class="content-container-row project-card">
+                <div class="content-container">
+                    <h3 class="project-card-title dark">CRUD</h3>
+                    <a href="/" target="_blank"><img class="project-img" src="./images/todolist.png" alt=""></a>
+                    <i class="uil uil-github icon"></i>  
+                </div>
+                <div class="content-container">
+                    <div class="project-text">
+                        Para este projeto eu criei um banco de dados integrado a um servidor remoto que permite os usuários guardarem suas informações. Inclui também autenticação por terceiro e criptografia por hash de senhas.
+                    </div>
+                    <div class="tags-container">
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">JavaScript</div>
+                        <div class="tag">Node.js</div>
+                        <div class="tag">Express</div>
+                        <div class="tag">MongoDB</div>
+                        <div class="tag">Mongoose</div>
                     </div>
                 </div>
-                <div class="container-column">
-                    <div class="project-card">
-                        <h3 class="project-card-title">Em Breve...</h3>
-                    </div>
+            </div>
+
+            <!-- ***************LANDINGPAGE*************** -->
+            <div class="content-container-row project-card">
+                <div class="content-container">
+                    <h3 class="project-card-title dark">Landing Page</h3>
+                    <a href="/" target="_blank"><img class="project-img" src="./images/todolist.png" alt=""></a>
+                    <i class="uil uil-github icon"></i>
                 </div>
-                <div class="container-column">
-                    <div class="project-card">
-                        <h3 class="project-card-title">Em Breve...</h3>
+                <div class="content-container">
+                    <div class="project-text">
+                        Página otimizada integrada ao Nodemailer, permite que o usuário envie e-mails diretamente do site.
+                    </div>
+                    <div class="tags-container">
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">JavaScript</div>
+                        <div class="tag">Node.js</div>
+                        <div class="tag">Express</div>
+                        <div class="tag">Nodemailer</div>
                     </div>
                 </div>
             </div>
@@ -107,10 +174,41 @@
 
     </main>
 
-    <footer>
-        <h6>Mais Informações.</h6>
+    <footer class="content-container">
+        <div class="content-container-row">
+            <form class="content-container">
+                <h3>Entre Em Contato</h3>
+                <input type="text" id="nome" name="nome" placeholder="Nome:">
+                <input type="email" id="email" name="email" placeholder="Email:">
+                <textarea name="mensagem" id="mensagem" cols="30" placeholder="Mensagem:" rows="10"></textarea>
+                <button>Enviar</button>
+            </form>
+            <div class="content-container">
+                <a href="https://api.whatsapp.com/send?phone=5581979094562&text=Mande Uma Mensagem!" target="_blank">
+                    <div class="side-card">
+                        <i class="uil uil-whatsapp"></i>
+                        <p>Whatsapp</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/antonio-barbosa-435953241/" target="_blank">
+                    <div class="side-card">
+                        <i class="uil uil-linkedin"></i>
+                        <p>Linkedin</p>
+                    </div>
+                </a>
+                <a href="https://github.com/acbarbosaneto" target="_blank">
+                    <div class="side-card">
+                        <i class="uil uil-github"></i>
+                        Github
+                    </div>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <h5>Copyright © 2022<br>Criado e desenvolvido por Antonio Barbosa.</h5>
     </footer>
 
     <script src='script.js'></script>
 </body>
+
 </html>
