@@ -138,8 +138,8 @@ h5{
 
 .project-img{
     box-sizing: content-box;
-    width:100%;
-    max-width:250px;
+    width:250px;
+    height:140px;
     /* border: 10px solid #dcdcdc; */
     border-radius:2px;
     outline: 2px solid rgb(159, 172, 193);
