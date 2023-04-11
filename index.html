@@ -23,8 +23,8 @@
 <body>
     <header>
         <div class="menu">
-            <div class="logo">Portfólio</div>
-            <ul>
+            <div class="logo slide-in-top">Portfólio</div>
+            <ul class="slide-in-top">
                 <li><a href="#about"></i>Sobre Mim</a></li>
                 <li><a href="#projects"></i>Projetos</a></li>
             </ul>
@@ -34,8 +34,8 @@
     <main>
         <section id="home" class="section-container">
                 <div class="content-container">
-                    <h1 class="home-title">Antonio Barbosa</h1>
-                    <h2 class="home-subtitle">Desenvolvedor Web</h2>
+                    <h1 class="home-title tracking-in-expand">Antonio Barbosa</h1>
+                    <h2 class="home-subtitle text-focus-in">Desenvolvedor Web</h2>
                 </div>
                 <!-- <img src="./images/react.svg" alt=""> -->
                 <i class="uil uil-arrow-circle-down"></i>
@@ -46,10 +46,7 @@
             <h4 class="title">Sobre Mim</h4>
             
             <div class="content-container-row">
-                <div class="text-box">Formado em Administração pela FCAP - Faculdade de Ciências da Administração de
-                    Pernambuco. Tenho muito interesse por Tecnologia e Design. Me apaixonei pelo Desenvolvimento
-                    Web à primeira vista. Possuo experiência com HTML, CSS, Javascript, JQuery, Node.js, Express e
-                    Git. 
+                <div class="text-box">Formado em Administração na Faculdade de Ciências da Administração de Pernambuco (FCAP-UPE) e atualmente iniciando minha jornada profissional como Desenvolvedor Web Front-end / UX/UI Designer. Estou focado em busca de uma primeira oportunidade para aplicar os meus conhecimentos no desenvolvimento de minhas habilidades e crescimento profissional. 
                 </div>
                 <div class="image-box">
                     <div class="content-container">
@@ -71,7 +68,11 @@
                     <div class="content-container">
                         <img src="./images/nodejs.png" alt="">
                         <div class="tag">Node.js</div>
-                    </div>       
+                    </div>
+                    <div class="content-container">
+                        <img src="./images/figma.png" alt="">
+                        <div class="tag">Figma</div>
+                    </div>            
                 </div>
             </div>
             
@@ -87,8 +88,13 @@
             <div class="content-container-row project-card">
                 <div class="content-container">
                     <h3 class="project-card-title dark">React To Do List</h3>
-                    <a href="/" target="_blank"> <img class="project-img" src="./images/todolist.png" alt=""></a>
-                    <i class="uil uil-github icon"></i>
+                    <a href="https://todolist-acbarbosaneto.vercel.app/" target="_blank"> <img class="project-img" src="./images/todolist.png" alt=""></a>
+                    <a href="https://github.com/acbarbosaneto" target="_blank">
+                        <div class="side-card special-button">
+                            <i class="uil uil-github"></i>
+                            Github
+                        </div>
+                    </a>
                 </div>
                 <div class="content-container">
                     <div class="project-text">
@@ -107,8 +113,14 @@
             <div class="content-container-row project-card">
                 <div class="content-container">
                     <h3 class="project-card-title dark">App do Tempo</h3>
-                    <a href="https://appdotempo.herokuapp.com/" target="_blank"> <img class="project-img" src="./images/weatherapp.png" alt=""> </a>
-                    <a href="https://github.com/acbarbosaneto/app-do-tempo" target="_blank"><i class="uil uil-github icon"></i></a>
+                    <a href="https://app-do-tempo-acbarbosaneto.vercel.app/" target="_blank"> <img class="project-img" src="./images/weatherapp.png" alt=""> </a>
+                    <a href="https://github.com/acbarbosaneto/app-do-tempo" target="_blank"></a>
+                    <a href="https://github.com/acbarbosaneto" target="_blank">
+                        <div class="side-card special-button">
+                            <i class="uil uil-github"></i>
+                            Github
+                        </div>
+                    </a>
                 </div>
                 <div class="content-container">
                     <div class="project-text">
@@ -131,7 +143,12 @@
                 <div class="content-container">
                     <h3 class="project-card-title dark">CRUD</h3>
                     <a href="/" target="_blank"><img class="project-img" src="./images/todolist.png" alt=""></a>
-                    <i class="uil uil-github icon"></i>  
+                    <a href="https://github.com/acbarbosaneto" target="_blank">
+                        <div class="side-card special-button">
+                            <i class="uil uil-github"></i>
+                            Github
+                        </div>
+                    </a> 
                 </div>
                 <div class="content-container">
                     <div class="project-text">
@@ -154,7 +171,12 @@
                 <div class="content-container">
                     <h3 class="project-card-title dark">Landing Page</h3>
                     <a href="/" target="_blank"><img class="project-img" src="./images/todolist.png" alt=""></a>
-                    <i class="uil uil-github icon"></i>
+                    <a href="https://github.com/acbarbosaneto" target="_blank">
+                        <div class="side-card special-button">
+                            <i class="uil uil-github"></i>
+                            Github
+                        </div>
+                    </a>
                 </div>
                 <div class="content-container">
                     <div class="project-text">
@@ -171,7 +193,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer class="content-container">
@@ -200,7 +221,6 @@
         <h5>Copyright © 2022<br><br>Criado e desenvolvido por Antonio Barbosa.</h5>
     </footer>
 
-    <script src='script.js'></script>
 </body>
 
 </html>
